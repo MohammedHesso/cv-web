@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./images/bc.jpg);
+    font-family: 'Oswald', sans-serif;
+}
+.container {
+    text-align: center;
+    font-size: 80px;
+    color: #eeeeeeaf;
+}
+
+
+ nav{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#141414;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    z-index: 100;
+}
+
+
+nav img {
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius:50% ;
+    margin-left: -150px;
+    margin-bottom: 10px;
+}
+nav h1 {
+    margin-top: 20px;
+    position: absolute;
+    color: red;
+}
+nav a {
+    text-decoration: none;
+    margin: 30px;
+
+}
+nav a:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+nav a span {
+    display: flex;
+    color: red;
+    margin-bottom: 10px;
+}
+nav a i {
+    color: white;
+}
+/* ------------------------- */
+.about {
+    margin-bottom: 50px;
+}
+.about .container p {
+    padding-top: 100px;
+}
+.about-cv {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about-cv .cv {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #eeeeee1f;
+}
+.about-cv span {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    margin-right: 10px;
+}
+
+.about-cv p {
+    font-size: 20px;
+    color: white;
+    width: 400px;
+    height: 60px;
+} 
+
+.about-cv .img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 200px;
+    border: 3px solid;
+    border-left-color: red;
+    border-bottom-color: red;
+    border-top-color: white;
+    border-right-color: white;
+}
+.about-cv .cv:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.about-cv .img img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.portfolio {
+    margin-bottom: 50px;
+}
+.portfolio .skils {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+
+.portfolio .web {
+    width: 800px;
+    height: 360px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #eeeeee1f;
+    text-align: center;
+    display: flex;
+}
+.portfolio .web:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.portfolio ul {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    list-style: none;
+}
+.portfolio ul li {
+    margin-bottom: 40px;
+}
+.portfolio .skils h2 {
+    font-size: 40px;
+    color: #eee;
+    margin-bottom: 20px;
+}
+.portfolio .skils span {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    margin-right: 10px;
+}
+.portfolio .skils i {
+    font-size: 40px;
+    margin-left: 20px;
+}
+.portfolio .skils .html {
+    background-color: red;
+    color: white;
+}
+.portfolio .skils .css {
+    background-color: orange;
+    color: white;
+}
+.portfolio .skils .bootstrap {
+    background-color: blue;
+    color: white;
+}
+.portfolio .skils .js {
+    background-color: yellow;
+    color: black;
+}
+.portfolio .skils .react {
+    color: #6767b4;
+}
+.portfolio .skils .api {
+    color: white;
+}
+
+.portfolio .graphic {
+    width: 400px;
+    height: 360px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #eeeeee1f;
+    text-align: center;
+}
+.portfolio .graphic:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.portfolio .skils-graphhic {
+    display: flex;
+    flex-direction: column;
+}
+.portfolio li .icon-1 {
+    width: 40px;
+    height: 20px;
+    margin-left: 30px;
+    background-color: #1e1e3e;
+    color: blue;
+    border-radius: 10px;
+}
+.portfolio li .icon-2 {
+    width: 40px;
+    height: 20px;
+    margin-left: 30px;
+    background-color: black;
+    color: orange;
+    border: 3px solid oran;
+    border-radius: 10px;
+}
+
+.contact form {
+    width: 800px;
+    height: 300px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-left: 250px;
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #eeeeee1f;
+}
+
+.contact form input {
+    width: 700px;
+    height: 20px;
+}
+
+.contact div {
+    margin: 40px;
+}
+.contact form label {
+    color: red;
+    font-size: 20px;
+}
+.contact .btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact button{
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    background-color: red;
+}
+.contact button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#141414;
+    align-items: center;
+    padding: 30px;
+}
+footer span {
+    color: red;
+    margin-bottom: 10px;
+}
+footer i {
+    width: 50px;
+}
+
+footer .insta {
+    color: rgb(212, 61, 86);
+}
+footer .face {
+    color: blue;
+}
+footer .email {
+    color: orange;
+}
+/* ---------------------- */
+/* media */
+@media (max-width:1111px) {
+    
+}
+@media (max-width:960px) {
+    .about-cv {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+       .about .about-cv .img img {
+            width: 200px;
+            height: 200px;
+            margin-left: 250px;
+            border-radius: 50%;
+            border: 3px solid;
+            border-left-color: red;
+            border-bottom-color: red;
+            border-top-color: white;
+            border-right-color: white;
+        }
+        .about .about-cv .cv {
+            width: 400px;
+            height: 300px;
+            border-radius: 20px;
+            padding-left: 20px;
+            margin-left: 200px;
+            margin-top: 30px;
+            padding-top: 20px;
+            background-color: #eeeeee1f;
+        }
+        .about-cv span {
+            font-size: 16px;
+            font-weight: bold;
+            color: red;
+            margin-right: 10px;
+        }
+
+        .portfolio .skils {
+            display: flex;
+            flex-direction: column;
+        }
+        .portfolio .skils .web {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            height: 400px;
+        }
+        .portfolio .skils .graphic {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            height: 400px;
+        }
+        .contact form {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin-left: 160px;
+        }
+        .contact form div input {
+            position: absolute;
+            width: 150px;
+            height: 40px;
+        }
+
+
+}
+@media (max-width:660px) {
+    nav img {
+        width: 250px;
+        margin: 0;
+    }
+    nav h1 {
+        opacity: 0;
+    }
+    nav a {
+        margin: 15px;
+    }
+    nav a span {
+        display: flex;
+        flex-direction: column;
+    }
+    nav a i {
+        opacity: 0;
+    }
+    /* ----- */
+    .contact {
+        margin-left: -10px;
+    }
+    /* ------- */
+    .container {
+        margin-left: 190px;
+    }
+    
+    /* ........... */
+
+    @media (max-width:500px) {
+        nav img {
+            width: 140px;
+            margin: -40px;
+        }
+
+    } 
+    /* ........... */
+    .about {
+        margin-left:-180px;
+    }
+    .about .about-cv img {
+        margin-left: -200px;
+    }
+    /* ........... */
+    .portfolio {
+        margin-left:-180px ;
+    }
+    /* ...... */
+    .contact {
+        margin-left:-180px ;
+    }
+    .contact .contact-p{
+        margin-left: 200px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
